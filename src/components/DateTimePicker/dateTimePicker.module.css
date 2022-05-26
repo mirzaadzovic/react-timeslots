@@ -1,0 +1,22 @@
+.container {
+  max-width: 600px !important;
+}
+
+.timeslots {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+  gap: 30px;
+  padding-top: 50px;
+  justify-content: space-between;
+}
+
+.picker {
+  width: 100% !important;
+}
+
+@media (max-width: 600px) {
+  .timeslots {
+    padding-top: 20px;
+  }
+}

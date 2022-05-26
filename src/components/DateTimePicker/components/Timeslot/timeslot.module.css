@@ -1,0 +1,31 @@
+.timeslot {
+  padding: 20px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 45%;
+}
+
+.timeslot:hover {
+  cursor: pointer;
+}
+
+.selected {
+  color: #40a9ff;
+}
+
+.time {
+  color: white;
+  letter-spacing: 1.2px;
+  font-family: sans-serif;
+  font-weight: 100;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .timeslot {
+    flex-basis: 100%;
+    padding: 15px;
+  }
+}
